@@ -1,0 +1,170 @@
+body{
+    background: #dadada;
+    margin: 0;
+    padding: 0;
+    }
+#header,#menu,#main,#info,#gallery,#contacts,#footer{
+    background: white;
+    width:80vw;
+     margin: 0 auto; 
+        }        
+#header{       
+    height: 35vh;       
+    width:100vw;        
+    background-image: url(img/h.jpg);     
+    background-size: cover;     
+    background-repeat: no-repeat;    
+        }    
+h1{   
+    text-align: center;  
+    color:white;  
+    line-height: 35vh;  
+    margin: 0;  
+    }
+#menu{
+    background:#3a75d2;        
+    height: 6vh;        
+    display: flex;       
+    width: 100vw;       
+    position: sticky;       
+    top: 0;      
+        }     
+#menu a{     
+    justify-content: space-around;    
+    width: 25vw;    
+    color: white;   
+    font-weight:bold;   
+    text-align: center;    
+    line-height: 6vh;    
+        }    
+a{   
+    text-decoration: none;   
+        }  
+#menu a:hover{  
+    background: #5196e3; 
+        }
+h2{
+    color: #3a75d2;   
+    margin: 0;   
+        }    
+#main,#info{    
+    text-align: justify;   
+    padding: 1vw;   
+    box-sizing: border-box;   
+        }   
+#main a{   
+    color: #3a75d2;    
+        }    
+#main a:hover{    
+    color:#5196e3;    
+            }    
+.right{   
+    float: left;   
+    text-align: right;  
+    margin-right:1vw;       
+        }        
+.right img{     
+    width:250px;         
+        }          
+.left{        
+    float: right;      
+    text-align: left;     
+    margin-left:1vw;   
+        }      
+.left img{    
+    width:250px;   
+        }
+#info{ 
+    background: #3a75d2;
+    color:#e2e2e2; 
+        } 
+#info h2{ 
+    color:white; 
+        }
+#gal{
+    display: flex;           
+    flex-wrap: wrap;            
+    justify-content: center;            
+        }           
+.gi{            
+    width: 23vw;            
+    height: 23vw;            
+    background-size: cover;           
+    background-repeat: no-repeat;           
+    margin: 1vw;           
+    transition: 0.2s;           
+        }          
+.gi:hover{          
+    transform: scale(1.1);          
+        }          
+#gallery h2{          
+    padding: 1vw;          
+        }
+textarea{
+    resize: vertical; 
+    max-height:150px;
+            
+        }           
+button{            
+    width: 140px;            
+    height: 35px;            
+    background:#3a75d2;            
+    border: none;           
+    color:white;           
+    font-weight: bold;           
+    margin-bottom:  1vw;           
+        }            
+button:active{          
+    background: #5196e3;          
+        }          
+#contacts h2{           
+    padding: 1vw;           
+        }           
+form{            
+    margin-left: 1vw;           
+        }
+#footer{
+    height: 7vw;            
+    background:#3a75d2;            
+    color:#e2e2e2;            
+    justify-content: center;           
+        }            
+#fmenu{           
+    width:60vw;            
+    display: flex;            
+    height: 6vh;           
+        }           
+#fmenu a{            
+    justify-content: space-around;            
+    width: 20vw;           
+    color: white;            
+    font-weight:bold;            
+    text-align: center;            
+    line-height: 6vh;            
+    background: #173f7d;            
+        }            
+#fmenu a:hover{            
+    background:#5196e3;            
+        }
+a{
+    text-decoration: none;          
+        }
+#up{
+    width:5vw;            
+    height:5vh;            
+    position: fixed;            
+    z-index: 2;            
+    opacity: 0.35;            
+    background: #5196e3;            
+    color: white;            
+    font-weight: bold;           
+    font-style: italic;           
+    position: fixed;           
+    top:90vh;           
+    left:92.5vw;            
+    text-align: center;           
+    line-height: 5vh;            
+        }           
+#up:hover{            
+    opacity: 0.85;            
+        }
